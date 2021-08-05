@@ -1,0 +1,23 @@
+header {
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    padding-left: 1%;
+
+
+}
+#Proyectos {
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
+#descripcion {
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
+#contacto {
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
+header, #Proyectos, #descripcion, #contacto {
+    color: white;
+}
