@@ -1,23 +1,59 @@
 header {
-    text-align: center;
     font-family: 'Open Sans', sans-serif;
     color: white;
-    padding-left: 1%;
-
 
 }
-#Proyectos {
+header > h1 {
+    display: inline-block;
+    margin-left: 20px;
+    text-align: center;
+}
+header > img {
+    width: 100px;
+    height: 80px;
+}
+.Proyectos {
     text-align: center;
     font-family: 'Open Sans', sans-serif;
 }
 #descripcion {
     text-align: center;
     font-family: 'Open Sans', sans-serif;
+
 }
 #contacto {
     text-align: center;
     font-family: 'Open Sans', sans-serif;
 }
-header, #Proyectos, #descripcion, #contacto {
+header, .Proyectos, #descripcion, #contacto {
     color: white;
+}
+ a {
+    padding: 2px;
+    background-color: lightgreen;
+    color: grey;
+    transition: .5s;
+    text-decoration: none;
+    border-radius: 5px;
+}
+a:hover{
+    background-color: turquoise;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    
+}
+li {
+    float: left;
+}
+li > a {
+    display: block;
+    color: grey;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+li :hover{
+    background-color: turquoise;
 }
