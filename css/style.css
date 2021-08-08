@@ -4,6 +4,7 @@
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin: 0;
+    
 }
 header{
     background-color: red;
@@ -130,4 +131,7 @@ li {
 }
 li > p {
     margin:  0 5px;
+}
+a {
+    text-decoration: none;
 }

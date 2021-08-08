@@ -35,6 +35,7 @@ header, .Proyectos, #descripcion, #contacto {
     transition: .5s;
     text-decoration: none;
     border-radius: 5px;
+    font-family: 'Open Sans', sans-serif;
 }
 a:hover{
     background-color: turquoise;

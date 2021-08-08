@@ -25,3 +25,6 @@ header > img {
 * > h1 , h2{
     color: rgb(242, 135, 115)
 }
+a {
+    text-decoration: none;
+}
