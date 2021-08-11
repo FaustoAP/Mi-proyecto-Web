@@ -25,8 +25,12 @@ header > img {
     text-align: center;
     font-family: 'Open Sans', sans-serif;
 }
-header, .Proyectos, #descripcion, #contacto {
+header, .Proyectos, #descripcion, #contacto, #encabezado{
     color: white;
+}
+#encabezado {
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
 }
  a {
     padding: 2px;
